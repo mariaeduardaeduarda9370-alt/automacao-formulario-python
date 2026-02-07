@@ -12,7 +12,7 @@ pyautogui.press('enter')
 pyautogui.write('hashtagtreinamentos.com/curso-python')
 pyautogui.press('enter')
 
-time.sleep(2)
+time.sleep(5)
 
 # Preencher o formulário
 pyautogui.click(x=288, y=668)
@@ -27,4 +27,5 @@ pyautogui.write('(00) 00000-0000')
 
 # Enviar o formulário
 pyautogui.press('tab')
+
 pyautogui.press('enter')
